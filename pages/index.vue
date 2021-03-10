@@ -41,7 +41,7 @@ export default {
       display: 'double',
       acceleration: true,
       autoCenter: true,
-      height: document.getElementById('turnp').clientHeight,
+      height: document.getElementById("turnp").height,
       page: 1,
     }
   },

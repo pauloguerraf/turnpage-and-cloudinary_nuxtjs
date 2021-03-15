@@ -1,6 +1,6 @@
 <template>
   <div  class="flex justify-center items-center h-screen overflow-hidden">
-    <TurnPage class="w-1/2" :options="options">
+    <TurnPage class="w-1/2 h-screen" :options="options">
       <div v-for="resource in resources" v-bind:key="resource.public_id">
         <img id="turnp"
           class="imagen h-sceen"

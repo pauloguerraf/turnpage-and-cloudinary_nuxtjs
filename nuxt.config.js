@@ -60,6 +60,8 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/axios',
+    '@nuxtjs/pwa',
   ],
   /*
    ** Nuxt.js modules

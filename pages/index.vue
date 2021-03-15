@@ -1,10 +1,9 @@
 <template>
-  <div class="flex justify-center items-center h-screen overflow-hidden">
+  <div  class="flex justify-center items-center h-screen overflow-hidden">
     <TurnPage class="w-1/2" :options="options">
       <div v-for="resource in resources" v-bind:key="resource.public_id">
-        <img
-          id="turnp"
-          class="imagen"
+        <img id="turnp"
+          class="imagen h-sceen"
           :src="
             'https://res.cloudinary.com/nidointeractive/image/upload/v1596560910' +
             '/' +
@@ -34,6 +33,7 @@ export default {
       //'https://jsonplaceholder.typicode.com/posts'
       'https://res.cloudinary.com/nidointeractive/image/list/v1596595869/comic1.json'
     )
+
     return { resources: data.resources }
   },
   mounted() {
